@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/juanpablocap/todo-app.git/static/css/main.a3fda4e3.css",
+    "main.js": "/juanpablocap/todo-app.git/static/js/main.0be312aa.js",
+    "static/js/787.2843ca88.chunk.js": "/juanpablocap/todo-app.git/static/js/787.2843ca88.chunk.js",
+    "index.html": "/juanpablocap/todo-app.git/index.html",
+    "main.a3fda4e3.css.map": "/juanpablocap/todo-app.git/static/css/main.a3fda4e3.css.map",
+    "main.0be312aa.js.map": "/juanpablocap/todo-app.git/static/js/main.0be312aa.js.map",
+    "787.2843ca88.chunk.js.map": "/juanpablocap/todo-app.git/static/js/787.2843ca88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3fda4e3.css",
+    "static/js/main.0be312aa.js"
+  ]
+}
