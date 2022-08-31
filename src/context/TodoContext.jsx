@@ -5,6 +5,13 @@ export const TodoContext = createContext();
 
 export const TodoContextProvider = (props) => {
   const [todos, setTodos] = useState([data]);
+  const [done, setDone] = useState();
+
+  const checkDone = (todoId) => {
+    setDone(todos[todoId].done = !done)
+    console.log(todoId, done)
+    console.log(todos);
+  };
 
   const createTodo = (todo) => {
     setTodos([
@@ -13,6 +20,7 @@ export const TodoContextProvider = (props) => {
         id: todos.length,
         title: todo.title,
         description: todo.description,
+        done: todo.done,
       },
     ]);
     console.log(todos);
@@ -29,9 +37,11 @@ export const TodoContextProvider = (props) => {
   return (
     <TodoContext.Provider
       value={{
+        done,
         todos,
         deleteCard,
         createTodo,
+        checkDone,
       }}
     >
       {props.children}
